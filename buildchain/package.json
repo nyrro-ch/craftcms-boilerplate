@@ -1,7 +1,4 @@
 {
-  "author": {
-    "email": "support@nyrro.ch"
-  },
   "browser": "/web/index.php",
   "browserslist": {
     "legacyBrowsers": [

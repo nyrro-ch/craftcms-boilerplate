@@ -13,7 +13,7 @@ It includes webpack, twigpack and tailwindcss
 
 ## Project setup
 1. Install craftcms and redactor/seomatic/twigpack plugins.
-> Run the command from the root directory of the project**
+> Run the command from the root directory of the project
 ```Bash
 make install
 
