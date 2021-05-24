@@ -1,5 +1,5 @@
 # Boilerplate for craft project
----
+This is just a simple CraftCMS boilerplate for starting a new project. There are a lot more optimizations available for the webpack production file.
 
 ## Overview
 This is a setup for starting a new craftcms project.
