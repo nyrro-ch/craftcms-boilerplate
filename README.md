@@ -36,6 +36,7 @@ docker run --rm -v (pwd)/buildchain:/app -w /app node:latest yarn install
 make start
 
 ```
+7. For production change the `output > publicPath option to the right path`
 
 
 ## Troubleshoot
