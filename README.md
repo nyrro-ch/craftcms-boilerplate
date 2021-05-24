@@ -36,7 +36,7 @@ docker run --rm -v (pwd)/buildchain:/app -w /app node:latest yarn install
 make start
 
 ```
-7. For production change the `output > publicPath option to the right path`
+7. For production change in `buildchain/webpack.prod.js` output > publicPath option to the right path.
 
 
 ## Troubleshoot
