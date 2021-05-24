@@ -1,0 +1,31 @@
+/**
+ * This injects any component classes registered by plugins.
+ *
+ */
+@import 'tailwindcss/components';
+@import './components/typography';
+
+@layer components {
+  .hide-el {
+    @apply invisible opacity-0
+  }
+  .show-el {
+    @apply visible opacity-100
+  }
+  .no-scroll {
+    @apply overflow-hidden
+  }
+
+}
+
+/**
+ * Here we add custom component classes; stuff we want loaded
+ * *before* the utilities so that the utilities can still
+ * override them.
+ *
+ */
+
+/**
+ * Include styles for individual pages
+ *
+ */

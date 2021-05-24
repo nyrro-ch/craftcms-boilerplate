@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Como';
+	src: local('../fonts/Como-Medium'),
+		url('../fonts/Como-Medium.woff2') format('woff2'),
+		url('../fonts/Como-Medium.woff') format('woff'),
+		url('../fonts/Como-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Como';
+	src: local('../fonts/Como'),
+		url('../fonts/Como.woff2') format('woff2'),
+		url('../fonts/Como.woff') format('woff'),
+		url('../fonts/Como.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Como';
+	src: local('../fonts/Como-Bold'),
+		url('../fonts/Como-Bold.woff2') format('woff2'),
+		url('../fonts/Como-Bold.woff') format('woff'),
+		url('../fonts/Como-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Como';
+	src: local('../fonts/Como-SemiBold'),
+		url('../fonts/Como-SemiBold.woff2') format('woff2'),
+		url('../fonts/Como-SemiBold.woff') format('woff'),
+		url('../fonts/Como-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
