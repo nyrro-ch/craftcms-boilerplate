@@ -20,7 +20,7 @@ make install
 ```
 
 2. Change/Create Twigpack config file and set settings to point host.docker.internal:3000
-```YAML
+```
 <?php 
 
 return [
