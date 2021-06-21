@@ -95,6 +95,16 @@ make start
 ```
 8. For production change in `buildchain/webpack.prod.js` output > publicPath option to the right path.
 
+9. Add Twigpack scripts to the head and body
+```
+<head>
+    {{ craft.twigpack.includeCssModule("app.css", false) }}
+</head>
+<body>
+    {{ craft.twigpack.includeJsModule("app.js", false) }}
+    {{ craft.twigpack.includeJsModule("runtime.js", false) }}
+</body>
+```
 
 ## Troubleshoot
 #### Docker port 3000 already in use from nitro-proxy
