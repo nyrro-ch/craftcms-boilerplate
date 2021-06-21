@@ -84,14 +84,16 @@ return [
 docker run --rm -v (pwd)/buildchain:/app -w /app node:latest yarn install
 ```
 
-5. Set variables in `.env` file
+5. Run `nitro add ./cms` to create nitro container and db
 
-6. Before runing the buildchain container relpace `<project>` in `Makefile` with the actual nitro project name. Then run the buildchain container
+6. Set variables in `.env` file
+
+7. Before runing the buildchain container relpace `<project>` in `Makefile` with the actual nitro project name. Then run the buildchain container
 ```Bash
 make start
 
 ```
-7. For production change in `buildchain/webpack.prod.js` output > publicPath option to the right path.
+8. For production change in `buildchain/webpack.prod.js` output > publicPath option to the right path.
 
 
 ## Troubleshoot
