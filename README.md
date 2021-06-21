@@ -19,7 +19,7 @@ make install
 
 ```
 
-2. Change/Create Twigpack config file and set settings to point host.docker.internal:3000
+2. Change/Create Twigpack config file and set settings to point `host.docker.internal:3000`
 ```
 <?php 
 
@@ -76,7 +76,7 @@ return [
     ],
 ];
 ```
-3. Change php version in composer.json file if needed
+3. Change php version in `composer.json` file if needed
 
 4. Install all js packages and maybe update them
 >Change `(pwd)` according to your shell
