@@ -3,3 +3,4 @@
 /src/.DS_Store
 .env*
 /cms/web/images
+/cms/web/.htaccess
