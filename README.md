@@ -78,7 +78,7 @@ return [
 ```
 3. Change php version in composer.json file if needed
 
-4. Install all js packages
+4. Install all js packages and maybe update them
 >Change `(pwd)` according to your shell
 ```Bash
 docker run --rm -v (pwd)/buildchain:/app -w /app node:latest yarn install
